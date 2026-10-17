@@ -467,7 +467,8 @@ em, .it { font-style: italic; font-family: var(--serif); }
   .hero { padding-top: 110px; min-height: auto; }
   .hero-grid, .split { grid-template-columns: 1fr; }
   .portrait { order: -1; width: min(270px, 70%); margin: 0 auto 10px; }
-  .badge--a { left: -18px; bottom: 17%; } .badge--b { right: -14px; bottom: -6%; }
+  .badge { position: relative; left: auto; right: auto; top: auto; bottom: auto; width: max-content; max-width: 100%; margin: 8px auto 0; white-space: nowrap; }
+  .badge--a { margin-top: -26px; }
   .regions { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 36px; }
   .posts { grid-template-columns: 1fr; }
